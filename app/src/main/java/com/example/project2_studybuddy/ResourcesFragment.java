@@ -17,7 +17,6 @@ public class ResourcesFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_resources, container, false);
 
-        // You can set up your UI components here
         TextView resourcesText = view.findViewById(R.id.resourcesText);
         resourcesText.setText("Your Study Resources will appear here!");
 

@@ -13,6 +13,5 @@
         android:text="Loading..."
         android:layout_gravity="center"/>
 
-    <!-- You can add more UI components here for displaying resources -->
 
 </LinearLayout>

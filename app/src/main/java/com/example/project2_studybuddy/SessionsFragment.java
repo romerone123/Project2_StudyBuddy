@@ -17,7 +17,6 @@ public class SessionsFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_sessions, container, false);
 
-        // You can set up your UI components here
         TextView sessionsText = view.findViewById(R.id.sessionsText);
         sessionsText.setText("Your Study Sessions will appear here!");
 

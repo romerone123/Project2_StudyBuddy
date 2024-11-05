@@ -17,7 +17,6 @@ public class MyGroupsFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_my_groups, container, false);
 
-        // You can set up your UI components here
         TextView myGroupsText = view.findViewById(R.id.myGroupsText);
         myGroupsText.setText("Your Study Groups will appear here!");
 
