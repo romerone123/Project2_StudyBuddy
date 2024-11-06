@@ -25,15 +25,6 @@
             android:name=".DashboardActivity" />
 
         <activity
-            android:name=".MyGroupsActivity" />
-
-        <activity
-            android:name=".SessionsActivity" />
-
-        <activity
-            android:name=".ResourcesActivity" />
-
-        <activity
             android:name=".FragmentPagerAdapter" />
 
         <activity
@@ -44,9 +35,6 @@
 
         <activity
             android:name=".SessionsFragment" />
-
-        <activity
-            android:name=".ViewPagerAdapter" />
 
         <activity
             android:name=".RegisterActivity" />

@@ -9,14 +9,16 @@ import androidx.viewpager2.widget.ViewPager2;
 
 public class DashboardActivity extends AppCompatActivity {
 
+    private ViewPager2 viewPager;
+    private TabLayout tabLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        TabLayout tabLayout = findViewById(R.id.tabLayout);
-        ViewPager2 viewPager = findViewById(R.id.viewPager);
+        tabLayout = findViewById(R.id.tabLayout);
+        viewPager = findViewById(R.id.viewPager);
 
         FragmentPagerAdapter adapter = new FragmentPagerAdapter(this);
         viewPager.setAdapter(adapter);
