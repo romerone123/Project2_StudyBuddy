@@ -48,6 +48,9 @@
         <activity
             android:name=".ViewPagerAdapter" />
 
+        <activity
+            android:name=".RegisterActivity" />
+
     </application>
 
 </manifest>
