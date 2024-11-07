@@ -45,6 +45,9 @@
         <activity
             android:name=".GroupSelectionActivity" />
 
+        <activity
+            android:name=".LoginOptionsActivity" />
+
     </application>
 
 </manifest>

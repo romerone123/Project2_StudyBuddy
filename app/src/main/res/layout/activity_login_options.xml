@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title for Registered Classes -->
+    <TextView
+        android:id="@+id/registeredClassesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registered Classes"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <!-- ListView to display registered classes -->
+    <ListView
+        android:id="@+id/classesListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Button to go to the Dashboard -->
+    <Button
+        android:id="@+id/goToDashboardButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button to log out -->
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
