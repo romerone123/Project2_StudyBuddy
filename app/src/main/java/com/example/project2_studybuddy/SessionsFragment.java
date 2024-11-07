@@ -25,13 +25,14 @@ public class SessionsFragment extends Fragment {
         // Initialize the "Message Teammates" button
         messageTeammatesButton = view.findViewById(R.id.messageTeammatesButton);
 
-        // Set the click listener for the button to open ChatActivity
+        // Set the click listener for the button to open GroupSelectionActivity
         messageTeammatesButton.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), ChatActivity.class);
+            Intent intent = new Intent(getActivity(), GroupSelectionActivity.class);
             startActivity(intent);
         });
 
         return view;
     }
 }
+
 
